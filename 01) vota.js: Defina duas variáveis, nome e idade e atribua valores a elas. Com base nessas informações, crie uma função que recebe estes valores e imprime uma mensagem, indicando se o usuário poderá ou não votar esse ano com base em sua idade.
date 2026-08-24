@@ -1,1 +1,12 @@
+let nome = "Guilherme";
+let idade = 20;
 
+function verificarVoto(nome, idade) {
+    if (idade >= 16) {
+        console.log(`${nome}, você poderá votar este ano.`);
+    } else {
+        console.log(`${nome}, você não poderá votar este ano.`);
+    }
+}
+
+verificarVoto(nome, idade);
