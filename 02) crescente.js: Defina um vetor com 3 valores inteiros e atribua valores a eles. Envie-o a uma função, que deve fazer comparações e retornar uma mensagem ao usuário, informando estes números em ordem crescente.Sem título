@@ -1,1 +1,9 @@
+let numeros = [8, 3, 5];
 
+function ordenarCrescente(numeros) {
+    numeros.sort((a, b) => a - b);
+
+    return `Os números em ordem crescente são: ${numeros.join(", ")}`;
+}
+
+console.log(ordenarCrescente(numeros));
