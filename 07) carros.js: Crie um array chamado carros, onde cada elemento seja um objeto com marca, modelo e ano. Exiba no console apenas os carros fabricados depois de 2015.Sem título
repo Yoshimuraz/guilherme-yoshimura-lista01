@@ -1,1 +1,13 @@
+let carros = [
+    { marca: "Toyota", modelo: "Corolla", ano: 2018 },
+    { marca: "Volkswagen", modelo: "Gol", ano: 2014 },
+    { marca: "Honda", modelo: "Civic", ano: 2020 },
+    { marca: "Fiat", modelo: "Uno", ano: 2015 },
+    { marca: "Chevrolet", modelo: "Onix", ano: 2019 }
+];
 
+for (let carro of carros) {
+    if (carro.ano > 2015) {
+        console.log(`Marca: ${carro.marca}, Modelo: ${carro.modelo}, Ano: ${carro.ano}`);
+    }
+}
